@@ -1,0 +1,15 @@
+,
+bash, just to make sure your shell is set to bash 
+sudo –i, Elevate privileges to root
+alias k=”kubectl”, Set alias for kubectl 
+export cns=”kubectl config set-context –current namespace”, To easily switch namespace “$cns mynamespace”
+export gns=”kubectl config get-contexts, To easily get my current context and namespace
+export dr=”--dry-run=client –oyaml”, Helpful when creating resource 
+export kn=”--force --grace-period=0”, Helpful when you want to immediately kill the pod so you don’t have to wait for few seconds since every second counts!
+echo “set number expandtab ts=2 sw=2” > ~/.vimrc, Configure your vim settings 
+,number – will show line number
+,expandtab – tab will be converted to whitespaces (you don’t want tab in yaml as it won’t work!)
+,ts (tabstop) – the width of the tab
+,sw (shiftwidth) – indention width
+mkdir exam && cd exam, Create a working directory for all your yaml files.
+
